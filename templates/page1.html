@@ -1,0 +1,66 @@
+{% extends "layout.html" %}
+
+{% block title %}Page 1{% endblock %}
+
+{% block content %}
+    <!--page content-->
+	
+	<div class="container mt-3">
+	<h2 class="quest">What animal are you quiz?</h2>
+	<form action="/p2">
+    <div class="mb-3 mt-3">
+      <label for="name">name</label>
+      <input type="name" class="form-control" id="name" placeholder="Enter name" name="name">
+    </div>
+	
+	 
+    <label for="sel1" class="form-label">If you were a hungry animal, which food would you eat perchance?</label>
+    <select class="form-select" id="sel1" name="sellist1">
+      <option >hay</option>
+      <option>meat</option>
+      <option>peanuts</option>
+      <option>sludge</option>
+    </select>
+    <br>
+		
+    <label for="sel2" class="form-label">If you were an animal, what size would you be?</label>
+    <select class="form-select" id="sel2" name="sellist2">
+      <option>massive</option>
+      <option>medium</option>
+      <option>a bit smaller then medium</option>
+      <option>very small and gross and measly</option>
+    </select>
+    <br>
+		
+    <label for="sel3" class="form-label">if you were a animal, what would your defining trait be?</label>
+    <select class="form-select" id="sel3" name="sellist3">
+      <option>being in a pack</option>
+      <option>being fast and regal</option>
+      <option>having a big trunk</option>
+      <option>being gross and disgusting</option>
+    </select>
+    <br>
+		
+    <label for="sel4" class="form-label">if you were a animal, where would you live?</label>
+    <select class="form-select" id="sel4" name="sellist4">
+      <option>in the sahara</option>
+      <option>in the forest</option>
+      <option>in a nasty sewer</option>
+      <option>in a big plain feild</option>
+    </select>
+    <br>
+		 
+    <label for="sel5" class="form-label">if you were a animal, how connected with humans would you be?</label>
+    <select class="form-select" id="sel5" name="sellist5">
+      <option>very close, a bestfriend</option>
+      <option>a humans worst nightmare, mortal enemies</option>
+      <option>not very close</option>
+      <option>pretty close</option>
+    </select>
+    <br>
+  
+    <button type="submit" class="btn btn-primary" >Submit</button>
+  </form>
+</div>
+
+{% endblock %}

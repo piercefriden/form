@@ -1,0 +1,19 @@
+.quest{
+	font-family:fantasy,copperplate;
+	
+}
+.text{
+	text-align:center;
+}
+.bckrndclr{
+	background-color:#FDDAA7;
+}
+.form-label{
+	font-family:helvetica,sans-serif;
+}
+.img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:450px;
+}

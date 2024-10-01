@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+
+{% block title %}Page 2{% endblock %}
+
+{% block content %}
+    <!--page content-->
+    <h1 class="text">Congratulations {{ name }} you finished! these are your results:</h1>
+
+	
+	<p class="text" class="form-label">{{ sellist1 }}</p>
+	<p class="text" class="form-label">{{ sellist2 }}</p>
+	<p class="text" class="form-label">{{ sellist3 }}</p>
+	<p class="text" class="form-label">{{ sellist4 }}</p>
+	<p class="text" class="form-label">{{ sellist5 }}</p>
+
+	<h1 class="text">You are a...</h1>
+	<h1 class="text">{{ animal }}!</h1>
+	<img src="/static/{{ picture }}" alt="animal-photo" class="img">
+	
+{% endblock %}
